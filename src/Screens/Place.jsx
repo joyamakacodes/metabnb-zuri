@@ -3,10 +3,11 @@ import Footer from "../Components/Footer";
 import {Link} from "react-router-dom";
 import locationvector from "../Assets/Images/locationvector.svg";
 import Placesdata from "../Components/Placesdata";
-import { useEffect, useState } from "react";
+import { useEffect} from "react";
+import Dropdown from "../Components/placesDrop";
 
 const Place = ()=>{
-  const[dropDown, setDropDown] = useState(false)
+  // const[isDropDown, setIsDropDown] = useState(false)
   useEffect(() => {
     window.scrollTo({
       top: 0,
@@ -61,18 +62,23 @@ return(
     <Navbar></Navbar>
 
       <div className="LinksCon">
-        <div>
+      <Dropdown />
+        <div className="Links">
+        
         <ul>
           {places.map((place)=>(
             <Link to="/"><li>{place.name}</li></Link>
           ))}
         </ul>
+        
       </div>
       <div>
         <button>Location <img  src={locationvector} alt="location icon" className="vector" /></button>
       </div>
       </div>
       <Placesdata></Placesdata>
+      
+      
     <Footer></Footer>
   </div>
 )

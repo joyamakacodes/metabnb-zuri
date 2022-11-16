@@ -28,21 +28,25 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 120px 20px 60px;
+    padding: 20px 70px 20px 60px;
     background: white;
     width: 100%;
     box-sizing: border-box;
 
     }
+    .Links{
+      margin-right: 30px;
+    }
     .LinksCon button{
-      padding: 5px 10px 7px;
+      padding: 0px 10px 0px;
       font-size: 14px;
       border: 1.5px solid #333333;
       border-radius: 5px;
       font-weight: bolder;
+      width: 100%;
     }
     .LinksCon button .vector{
-      margin-left: 30px;
+      margin-left: 10px;
       margin-top: 10px;
     }
     .dropdownCon{
@@ -347,19 +351,40 @@ border-radius: 16px;
 @media only screen and (max-width:768px){
   nav{
     padding: 20px;
-
     }
   nav button{
    margin-left: 50px;
   }
-  .LinksCon{
+  .Links{
     display: none;
   }
+  .LinksCon{
+    margin-top: 100px;
+    padding: 20px;
+    background: white;
+    width: 100%;
+    box-sizing: border-box;
+
+    }
   .dropdownCon{
     display:block;
+    align-items: flex-start;
+    background: #FFFFFF;
+    border-radius: 16px;
+    color: black;
+    /* width: 100%; */
+    
+  }
+  .dropdownCon select{
+    margin-top: 5px;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 5px;
+
   }
   header{
     display: block;
+
     
   }
   .HeadingCon{
