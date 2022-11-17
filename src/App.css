@@ -34,9 +34,9 @@ body{
     box-sizing: border-box;
 
     }
-    /* .Links{
+    .Links{
       margin-right: 10px;
-    } */
+    }
     .LinksCon button{
       display: flex;
       justify-content: space-around;
@@ -46,10 +46,11 @@ body{
       font-weight: bolder;
       margin-top: 10px;
       text-align: center;
+      padding: 5px 15px;
      
     }
     .LinksCon button .vector{
-      margin-left: 15px;
+      margin-left: 20px;
     }
     .LinksCon button p{
       font-size:16px;
@@ -366,6 +367,7 @@ border-radius: 16px;
   .Links{
     display: none;
   }
+  
   .LinksCon{
     margin-top: 100px;
     padding: 20px;
@@ -373,6 +375,9 @@ border-radius: 16px;
     width: 100%;
     box-sizing: border-box;
 
+    }
+    .LinksCon button{
+      margin-top: 0px;
     }
   .dropdownCon{
     display:block;
@@ -385,7 +390,7 @@ border-radius: 16px;
   }
   .dropdownCon select{
     margin-top: 5px;
-    padding: 10px 20px;
+    padding: 10px ;
     outline: none;
     border-radius: 5px;
 
@@ -434,6 +439,9 @@ border-radius: 16px;
 .frameCon div{
   width: 100%;
  }
+ .frameCon h3{
+  margin-top: 20px;
+ }
 .footerCon{
   display: block;
 }
@@ -443,10 +451,13 @@ border-radius: 16px;
 .copyright{
   margin-left:0px;
 }
+
 .mainHeading{
   font-size: 40px;
   line-height: 40px;
   text-align:center;
  }
-
+ .copyright{
+  margin-top: 50px;
+}
 }
