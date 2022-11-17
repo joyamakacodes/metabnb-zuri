@@ -28,27 +28,35 @@ body{
     margin-top: 100px;
     display: flex;
     justify-content: space-between;
-    padding: 20px 70px 20px 60px;
+    padding: 20px 150px 20px 50px;
     background: white;
     width: 100%;
     box-sizing: border-box;
 
     }
-    .Links{
-      margin-right: 30px;
-    }
+    /* .Links{
+      margin-right: 10px;
+    } */
     .LinksCon button{
-      padding: 0px 10px 0px;
+      display: flex;
+      justify-content: space-around;
       font-size: 14px;
       border: 1.5px solid #333333;
       border-radius: 5px;
       font-weight: bolder;
-      width: 100%;
+      margin-top: 10px;
+      text-align: center;
+     
     }
     .LinksCon button .vector{
-      margin-left: 10px;
-      margin-top: 10px;
+      margin-left: 15px;
     }
+    .LinksCon button p{
+      font-size:16px;
+      line-height:19.2px;
+    }
+
+  
     .dropdownCon{
       display:none;
     }
@@ -353,7 +361,7 @@ border-radius: 16px;
     padding: 20px;
     }
   nav button{
-   margin-left: 50px;
+   margin-left: 30px;
   }
   .Links{
     display: none;

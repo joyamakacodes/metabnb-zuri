@@ -73,7 +73,7 @@ return(
         
       </div>
       <div>
-        <button>Location <img  src={locationvector} alt="location icon" className="vector" /></button>
+        <button><div>Location</div> <div><img  src={locationvector} alt="location icon" className="vector" /></div> </button>
       </div>
       </div>
       <Placesdata></Placesdata>

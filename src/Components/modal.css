@@ -59,11 +59,11 @@ transform: rotate(90deg);
   .modalCon{
     position: absolute;
     width: 100%;
-    height: 356px;
+    height: 365px;
     left: 0;
     top: 120px;
     }
     .connectWallet{
-      gap: 100px;
+      gap: 165px;
     }
 }
