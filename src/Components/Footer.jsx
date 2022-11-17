@@ -9,8 +9,8 @@ const Footer = ()=>{
     <footer>
       
       <div className="footerCon">
-        <div className="footersocials">
-        <img src={footerlogo} alt="footer logo"/>
+        <div className="footersocials ">
+        <img src={footerlogo} alt="footer logo" className="footer-logo"/>
         <div className="socials">
         <img src={facebook} alt="footer logo" />
         <img src={instagram} alt="footer logo" />

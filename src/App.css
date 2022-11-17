@@ -210,7 +210,7 @@ body{
       width: 150%;
     }
     .frame1{
-      margin-top: 30px;
+      margin-top: 70px;
     }
     .mainHeading{
     font-size: 48px;
@@ -234,9 +234,7 @@ body{
       line-height: 19px;
       font-size: 16px;
     }
-    .frame1{
-      margin-top:70px;
-    }
+    
     footer{
      padding: 80px;
       background: black;
@@ -415,8 +413,12 @@ border-radius: 16px;
   }
   .headerpic{
     box-sizing: border-box;
-    width: 50%;
+    width: 80%;
     margin: 40px 0px 40px 40px;
+  }
+
+  header button{
+    padding:11px 15px;
   }
   .nfts{
     display: flex;
@@ -428,17 +430,25 @@ border-radius: 16px;
     grid-template-columns: repeat(1, 1fr);
     justify-content: space-between;
     box-sizing: border-box;
-    margin: 50px; 
+    margin: 0px; 
   }
   .frameCon{
     display: block;
+    padding: 20px;
 }
 .frameCon img{
   width: 100%;
+  
 }
 .frameCon div{
   width: 100%;
+  margin-top: 10px;
  }
+ .frameCon p{
+  width:100%;
+  font-size: 18px;
+  line-height: 30px;
+}
  .frameCon h3{
   margin-top: 20px;
  }
@@ -447,6 +457,9 @@ border-radius: 16px;
 }
 .footersocials img{
   margin: 30px 10px;
+}
+.footer-logo{
+  width: 50%;
 }
 .copyright{
   margin-left:0px;
